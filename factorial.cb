@@ -1,0 +1,11 @@
+input 100
+set 50 0
+set 51 -1
+set 101 1
+compare > 100 50 26
+mlp 101 100 101
+add 100 51 100
+jump 11
+end
+output 101
+exit
