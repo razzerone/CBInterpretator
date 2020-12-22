@@ -1,0 +1,26 @@
+input 100
+
+set 99 1
+
+set 80 1
+
+set 50 0
+set 51 1
+
+compare = 100 51 22
+output 51
+exit
+end
+
+compare < 99 100 44
+add 50 51 52
+mov 50 51
+mov 51 52
+add 99 80 99
+jump 23
+end
+
+output 51
+
+exit
+
